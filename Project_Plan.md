@@ -17,7 +17,7 @@ A deterministic, simulation of an OS process scheduler. It will track processes 
 - **Java SE (core)** - collections, logic. 
 - **Java Swing (javax.swing)** - GUI: window, panels, buttons, Gantt charts. 
 - **JUnit 5** - unit testing with Arrange-Act-Assert. 
-- **JFreeChart** - optional, only if hand-drawn Swing charts prove troubling.
+- **JFreeChart** - only if hand-drawn Swing charts prove troubling.
 
 ## Design Patterns
  

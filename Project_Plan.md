@@ -10,7 +10,7 @@
 
 ## Idea
  
-A deterministic, simulation of an OS process scheduler. It will track processes (arrival, burst, priority) through their the lifecycle using a tick-by-tick logical clock. Using a Swing GUI displaying the ready queue, a chart, and metrics (waiting/turnaround times).
+A simulation of an OS process scheduler. It will track processes (arrival, burst, priority) through their lifecycle using a tick-by-tick logical clock. Using a Swing GUI (I haven't used before) displaying the ready queue, a chart, and metrics (waiting/turnaround times).
  
 ## Libraries Used / Needed
  
@@ -20,6 +20,7 @@ A deterministic, simulation of an OS process scheduler. It will track processes 
 - **JFreeChart** - only if hand-drawn Swing charts prove troubling.
 
 ## Design Patterns
+** These are some design patterns I looked up and tried to connect them to the required components for this project **
  
 - **Strategy** - Swaps scheduling algorithms: (maybe:  FCFS, SJF, Round Robin).
 - **State**  - process lifecycle transitions.

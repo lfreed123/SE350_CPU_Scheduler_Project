@@ -11,7 +11,6 @@ public class Process {
     private final int placeholder2;
     private final int priority;
 
-
 public Process(int id, int placeholder1, int placeholder2, int priority) {
     this.id = id;
     this.placeholder1 = placeholder1;

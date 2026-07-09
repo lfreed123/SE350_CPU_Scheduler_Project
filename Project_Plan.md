@@ -20,7 +20,7 @@ A simulation of an OS process scheduler. It will track processes (arrival, burst
 - **JFreeChart** - only if hand-drawn Swing charts prove troubling.
 
 ## Design Patterns
-** These are some design patterns I looked up and tried to connect them to the required components for this project **
+**These are some design patterns I looked up and tried to connect them to the required components for this project**
  
 - **Strategy** - Swaps scheduling algorithms: (maybe:  FCFS, SJF, Round Robin).
 - **State**  - process lifecycle transitions.

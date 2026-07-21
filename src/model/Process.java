@@ -38,8 +38,6 @@ public class Process {
     /**
      * Moves this process into the given state by directly assigning the field.
      * No transition-legality checks yet — the rules come later.
-     *
-     * @param state the state to transition into
      */
     public void transitionTo(ProcessState state) {
         this.currentState = state;

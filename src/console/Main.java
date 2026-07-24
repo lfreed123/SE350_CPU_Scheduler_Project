@@ -18,18 +18,14 @@ public class Main {
                 new Process(3, 4, 4, 0),
         };
 
-        // FCFS: serve in order of arrival
-        // NOTE: Not sure about this. Will need to edit it REMEMBER
-        // Arrays.sort(processes, Comparator.comparingInt(Process::getArrivalTime));
+        
 
         int currentTime = 0;
         int totalWaiting = 0;
 
         System.out.println("Run order ():");
         for (Process p : processes) {
-            /**
-             * CPU may be idle if the next process shows up.
-             */
+            // CPU may idle
             if (currentTime < p.getArrivalTime()) {
                 currentTime = p.getArrivalTime();
             }
